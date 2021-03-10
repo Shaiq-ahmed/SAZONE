@@ -1,0 +1,146 @@
+#title{
+    background-color: #02a9f7;
+}
+.navbar-brand{
+    font-size: 2.1rem;
+    font-style: italic;
+    text-decoration: underline crimson;
+    font-family: 'Akaya Telivigala', cursive;
+}
+h1{
+    line-height: 1.5;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+.container-fluid{
+    padding: 3% 13%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar{
+    padding: 0 0 4rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-style: 'Montserrat';
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+#features{
+    margin: 15% 15% ;
+}
+.icon{
+    padding: 0 80px 50px;
+    color: #02577a;
+}
+#features p{
+    line-height: 1.5;
+    color: lightslategray;
+    font-weight: 5%;
+    font-size: 1.2rem;
+}
+#reviews{
+    background-color:#01303f;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+.review-image{
+    width: 10%;
+    margin: 20px;
+}
+.carousel-indicators{
+  margin: auto;
+}
+.carousel-item h2{
+    font-size: 28px;
+    
+}
+#press{
+    background-color: #01303f;
+    
+}
+.press-image{
+   
+
+}
+#pricing{
+    padding:100px ;
+    text-align: center;
+}
+#pricing h2{
+    font-family: 'Akaya Telivigala', cursive;
+}
+#pricing .pricing-paragraph{
+    font-family: 'Krona One', sans-serif;
+}
+.pricing-column{
+    padding: 3% 5%;
+}
+
+#download{
+    background-color: #02a9f7;
+   
+    padding: 120px;
+
+    text-align: center;
+    
+   
+}
+
+#download h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.1rem;
+    
+    color: #fff;
+}
+footer{
+    text-align: center;
+    margin: 50px auto 40px auto;
+    padding: 39px;
+    
+}
+
+.copyright{
+    color: darkgrey;
+}
+
+@media(max-width: 991px){
+    #title{
+        text-align: center;
+    }
+    #features{
+        text-align: center;
+    }
+}
+@media(max-width: 553px){
+    .title-image{
+        width: 380px;
+    }
+}
+@media(max-width: 380px){
+    .title-image{
+        width: 310px;
+    }
+}
+@media(max-width: 1250px){
+    #press{
+        text-align: center;
+    }
+}
+@media(max-width: 1280px){
+    #press{
+        text-align: center;
+    }
+}
+@media(max-width: 380px){
+    #download h3{
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+}
